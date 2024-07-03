@@ -9,7 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_cache_manager: ^3.0.0
+  flutter_cache_manager: #^3.3.2
+    git:
+      url: https://github.com/t-k-c/flutter_cache_manager.git
+      path: flutter_cache_manager
+      ref: develop
   firebase_storage: ^11.7.4
   path_provider: ^2.1.3
   path: ^1.9.0
